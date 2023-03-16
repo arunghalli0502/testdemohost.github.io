@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body
+{
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ background-color: black;
+
+}
+
+.maindiv{
+    margin-top: 20px;
+    width: 340px;
+    height: 445px;
+    text-align: center;
+    border: 3px groove orange;
+    
+}
+
+.display
+{
+    width: 324 px;
+    height: 90px;
+    display: block;    
+}
+#result, #exp
+{
+    width: 315px;
+    height: 40px;
+    border: none;
+    font-size: 40px;
+    text-align: right;
+    padding: 9px;
+   background-color: black;
+   color: white;
+}
+.input
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.numberpad
+{
+    padding-left: 6px;
+    width: 330px;
+    height: 350px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: black;
+}
+
+ button
+{
+    width: 63px;
+    height: 63px;
+    margin: 3px;
+    color: orange;
+    background-color: white;
+    font-size: 25px;
+    border-radius: 100%;
+}
+button:hover, .lastcolumn button:hover
+{
+    background-color:gray;
+    border-color:chartreuse;
+    color: white;
+}
+.lastcolumn 
+{
+    float: right;
+}
+.lastcolumn button, #clear, #bracess, #mod
+{
+     width: 63px;
+    height: 50px;
+    margin-left: 5px;
+    font-size: small;
+    background-color: orange;
+    color: white;
+   
+}

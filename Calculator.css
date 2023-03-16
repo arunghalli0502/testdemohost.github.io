@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body
+{
+ 
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ background-color: lightgray;
+ /* background: linear-gradient(rgb(204, 0, 255), rgb(255, 247, 0), green); */
+
+}
+
+.maindiv{
+    /* background-color:lightslategray; */
+    margin-top: 20px;
+    width: 511px;
+    height: 485px;
+    text-align: center;
+    border: 8px solid ;
+    border-color: aquamarine;
+}
+
+.display
+{
+    width: 495px;
+    /* background-color:rgb(39, 255, 20); */
+    height: 90px;
+    display: block;
+    border-width: 5px;
+    border-style:groove ; 
+    border-color: blue;
+    
+}
+
+
+#result, #exp
+{
+    width: 485px;
+    border: none;
+    height: 40px;
+    padding: 5px;
+    font-size: 40px;
+    text-align: right;
+    background-color: rgb(66, 108, 66);
+   /* background-color: black; */
+   /* color: white; */
+}
+
+.input
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.numberpad
+{
+    padding-left: 6px;
+    width: 501px;
+    height: 380px;
+    border-top: 9px solid green;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-width: 5px;
+    border-style:groove ; 
+     border-color: blue;
+    border-top: none;
+    background: linear-gradient(rgb(204, 0, 255), rgb(255, 247, 0), green);
+    /* background-color: black; */
+}
+
+ button
+{
+    width: 105px;
+    height: 63px; 
+    margin: 3px;
+    color: mediumslateblue;
+    background-color: white;
+    font-size: 25px;
+    border-color: red;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    box-shadow: 4px 2px black;
+}
+
+button:hover
+{
+    /* background-color: white; */
+    background-color: aqua;
+}
+.lastcolumn 
+{
+    float: right;
+    /* background-color: blueviolet; */
+    /* width: 125px; */
+
+}
+
+
+.lastcolumn button
+{
+    width: 113px;
+    height: 51px;
+    margin-left: 5px;
+
+}

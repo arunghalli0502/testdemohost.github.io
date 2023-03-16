@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- <link rel="stylesheet" href="Calculator.css"> -->
+    <link rel="stylesheet" href="Calculator1.css">
+</head>
+<body>
+    
+    <div class="maindiv">
+        <div class="display">
+            <input type="text" id="exp">
+            <input type="text" id="result">
+        </div>
+
+        <div class="input">
+            <div class="numberpad">
+                <div class="col">
+                    <button type="submit" id="clear" value="" onclick="eraseexp()">C</button>
+                    <button type="submit" id="seven" value="7" onclick="f7()">7</button>
+                    <button type="submit" id="four" value="4" onclick="f4()">4</button>
+                    <button type="submit" id="one" value="1" onclick="f1()">1</button>
+                    <button type="submit" id="addsub" value="-a" onclick="plusminus1()">+/-</button>
+                </div>
+                <div class="col">
+                    <button type="submit" id="bracess" value="(" onclick="braces()">()</button>
+                    <button type="submit" id="eight" value="8" onclick="f8()">8</button>
+                    <button type="submit" id="five" value="5" onclick="f5()">5</button>
+                    <button type="submit" id="two" value="2" onclick="f2()">2</button>
+                    <button type="submit" id="zero" value="0" onclick="f0()">0</button>
+                </div>
+                <div class="col">
+                    <button type="submit" id="mod" value="%" onclick="mod()">%</button>
+                    <button type="submit" id="nine" value="9" onclick="f9()">9</button>
+                    <button type="submit" id="six" value="6" onclick="f6()">6</button>
+                    <button type="submit" id="three" value="3" onclick="f3()">3</button>
+                    <button type="submit" id="dot" value="." onclick="dot()">.</button>
+                </div>
+                <div class="lastcolumn">
+                    <button type="submit" id="deletelast" value="" onclick="deletelast()">delete</button>
+                    <button type="submit" id="division" value="" onclick="division()">/</button>
+                    <button type="submit" id="multiplication" value="" onclick="multiplication()">*</button>
+                    <button type="submit" id="sub" value="" onclick="sub()">-</button>
+                    <button type="submit" id="add" value="" onclick="add()">+</button>
+                    <button type="submit" id="equals" value="" onclick="equals()">=</button>
+                </div>               
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./Calculator.js"></script>
+</body>
+</html>
